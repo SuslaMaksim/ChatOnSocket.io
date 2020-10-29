@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/SuslaMaksim/ChatOnSocket.io/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/SuslaMaksim/ChatOnSocket.io/static/js/main.ea5c37dc.chunk.js",
+    "main.js.map": "/SuslaMaksim/ChatOnSocket.io/static/js/main.ea5c37dc.chunk.js.map",
+    "runtime-main.js": "/SuslaMaksim/ChatOnSocket.io/static/js/runtime-main.2ba09812.js",
+    "runtime-main.js.map": "/SuslaMaksim/ChatOnSocket.io/static/js/runtime-main.2ba09812.js.map",
+    "static/js/2.eafb1393.chunk.js": "/SuslaMaksim/ChatOnSocket.io/static/js/2.eafb1393.chunk.js",
+    "static/js/2.eafb1393.chunk.js.map": "/SuslaMaksim/ChatOnSocket.io/static/js/2.eafb1393.chunk.js.map",
+    "index.html": "/SuslaMaksim/ChatOnSocket.io/index.html",
+    "precache-manifest.b9beff811d070f0101756b9b1b8ac487.js": "/SuslaMaksim/ChatOnSocket.io/precache-manifest.b9beff811d070f0101756b9b1b8ac487.js",
+    "service-worker.js": "/SuslaMaksim/ChatOnSocket.io/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/SuslaMaksim/ChatOnSocket.io/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.eafb1393.chunk.js.LICENSE.txt": "/SuslaMaksim/ChatOnSocket.io/static/js/2.eafb1393.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2ba09812.js",
+    "static/js/2.eafb1393.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.ea5c37dc.chunk.js"
+  ]
+}
