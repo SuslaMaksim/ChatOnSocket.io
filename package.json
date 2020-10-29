@@ -30,7 +30,6 @@
       "react-app/jest"
     ]
   },
-  "proxy": "https://shrouded-journey-95175.herokuapp.com",
   "browserslist": {
     "production": [
       ">0.2%",

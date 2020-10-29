@@ -37,7 +37,7 @@ const JoinBlock = ({login})=> {
    const postData = ()=>{
         if(!roomId || !name)
             return setError(true)
-       axios.post('/rooms',{
+       axios.post('https://shrouded-journey-95175.herokuapp.com//rooms',{
            name,roomId
        }).then( res => {
           setRooms('')
