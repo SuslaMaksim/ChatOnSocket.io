@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/SuslaMaksim/ChatOnSocket.io/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/SuslaMaksim/ChatOnSocket.io/static/js/main.ea5c37dc.chunk.js",
-    "main.js.map": "/SuslaMaksim/ChatOnSocket.io/static/js/main.ea5c37dc.chunk.js.map",
-    "runtime-main.js": "/SuslaMaksim/ChatOnSocket.io/static/js/runtime-main.2ba09812.js",
-    "runtime-main.js.map": "/SuslaMaksim/ChatOnSocket.io/static/js/runtime-main.2ba09812.js.map",
-    "static/js/2.eafb1393.chunk.js": "/SuslaMaksim/ChatOnSocket.io/static/js/2.eafb1393.chunk.js",
-    "static/js/2.eafb1393.chunk.js.map": "/SuslaMaksim/ChatOnSocket.io/static/js/2.eafb1393.chunk.js.map",
-    "index.html": "/SuslaMaksim/ChatOnSocket.io/index.html",
-    "precache-manifest.4372e8614ee970144e61342327a555f9.js": "/SuslaMaksim/ChatOnSocket.io/precache-manifest.4372e8614ee970144e61342327a555f9.js",
-    "service-worker.js": "/SuslaMaksim/ChatOnSocket.io/service-worker.js",
-    "static/css/main.5ecd60fb.chunk.css.map": "/SuslaMaksim/ChatOnSocket.io/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.eafb1393.chunk.js.LICENSE.txt": "/SuslaMaksim/ChatOnSocket.io/static/js/2.eafb1393.chunk.js.LICENSE.txt"
+    "main.css": "/chat-socket-io/static/css/main.ab7136cd.chunk.css",
+    "main.js": "/chat-socket-io/static/js/main.67ee7e17.chunk.js",
+    "main.js.map": "/chat-socket-io/static/js/main.67ee7e17.chunk.js.map",
+    "runtime-main.js": "/chat-socket-io/static/js/runtime-main.65fff6da.js",
+    "runtime-main.js.map": "/chat-socket-io/static/js/runtime-main.65fff6da.js.map",
+    "static/js/2.6eb8f218.chunk.js": "/chat-socket-io/static/js/2.6eb8f218.chunk.js",
+    "static/js/2.6eb8f218.chunk.js.map": "/chat-socket-io/static/js/2.6eb8f218.chunk.js.map",
+    "static/js/3.daa3c2d1.chunk.js": "/chat-socket-io/static/js/3.daa3c2d1.chunk.js",
+    "static/js/3.daa3c2d1.chunk.js.map": "/chat-socket-io/static/js/3.daa3c2d1.chunk.js.map",
+    "index.html": "/chat-socket-io/index.html",
+    "static/css/main.ab7136cd.chunk.css.map": "/chat-socket-io/static/css/main.ab7136cd.chunk.css.map",
+    "static/js/2.6eb8f218.chunk.js.LICENSE.txt": "/chat-socket-io/static/js/2.6eb8f218.chunk.js.LICENSE.txt",
+    "static/media/logo.103b5fa1.svg": "/chat-socket-io/static/media/logo.103b5fa1.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.2ba09812.js",
-    "static/js/2.eafb1393.chunk.js",
-    "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.ea5c37dc.chunk.js"
+    "static/js/runtime-main.65fff6da.js",
+    "static/js/2.6eb8f218.chunk.js",
+    "static/css/main.ab7136cd.chunk.css",
+    "static/js/main.67ee7e17.chunk.js"
   ]
 }
