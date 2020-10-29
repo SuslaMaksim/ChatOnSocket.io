@@ -4,7 +4,7 @@
 /node_modules
 /.idea
 /.pnp
-.pnp.jsgit 
+.pnp.jsgit
 
 # testing
 /coverage
