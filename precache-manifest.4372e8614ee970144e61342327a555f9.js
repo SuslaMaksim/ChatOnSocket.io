@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "45204c68218b3801273b62ab7025de59",
+    "revision": "c47c1dae03cf6a348b80d2b4f2846d71",
     "url": "/SuslaMaksim/ChatOnSocket.io/index.html"
   },
   {

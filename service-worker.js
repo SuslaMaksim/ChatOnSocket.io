@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/SuslaMaksim/ChatOnSocket.io/precache-manifest.b9beff811d070f0101756b9b1b8ac487.js"
+  "/SuslaMaksim/ChatOnSocket.io/precache-manifest.4372e8614ee970144e61342327a555f9.js"
 );
 
 self.addEventListener('message', (event) => {
