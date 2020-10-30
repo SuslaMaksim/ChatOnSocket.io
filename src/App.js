@@ -46,7 +46,7 @@ function App() {
             type: 'SET_DATA',
             payload: data
         })
-        console.log(data)
+
 
 
     }

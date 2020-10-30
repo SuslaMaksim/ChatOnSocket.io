@@ -12,16 +12,20 @@ const useStyles = makeStyles((theme) => ({
     container:{
         display: 'flex',
         width: '300px',
+        marginTop: '50px',
         flexDirection: 'column',
         alignItems: 'center',
         padding: '20px',
         border: '1px solid grey',
-        borderRadius: '3px'
+        borderRadius: '3px',
     },
     textField:{
         width: '100%',
         marginBottom: '20px'
 
+    },
+    rules: {
+        marginBottom: '15px'
     }
 
 }));
@@ -51,13 +55,17 @@ const JoinBlock = ({login})=> {
 
     return (
         <Box component='form' className={classes.container}>
-            {error && <Typography style={{color: 'tomato',marginBottom:'15px'}} variant='body2'>Заполните оба пол ввода</Typography>}
-            <TextField onChange={ e => setRooms(e.target.value)} className={classes.textField} variant='outlined' label='Rooms' value={roomId} />
+            {error && <Typography style={{color: 'tomato',marginBottom:'15px'}} variant='body2'>Заполните оба поля ввода</Typography>}
+            <TextField onChange={ e => setRooms(e.target.value)} className={classes.textField} variant='outlined' label='Room' value={roomId} />
             <TextField onChange={ e => setName(e.target.value)}  className={classes.textField} variant='outlined' label='Name' value={name}/>
-            <Button onClick={postData} style={{width: '100px'}} variant='outlined' color='secondary' fullWidth={false}> Join</Button>
+            <Button onClick={postData} style={{width: '100px',marginBottom: '50px'}} variant='outlined' color='secondary' fullWidth={false}> Join</Button>
 
-
+            <Typography variant='body1' className={classes.rules}> How to use this chat ? :)</Typography>
+            <Typography variant='body1' className={classes.rules}> Step 1: User1 enter username in input's name, and enter number of room in the input's room </Typography>
+            <Typography variant='body1' className={classes.rules}> Step 2: User2 also enter username in input's name, and enter the same number of room in the input's room </Typography>
+            <Typography variant='body1' className={classes.rules}> Step 3: User1 and User2 can chat </Typography>
         </Box>
+
     );
 }
 

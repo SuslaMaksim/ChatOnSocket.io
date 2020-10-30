@@ -1,4 +1,4 @@
-import React,{useState,useEffect,useRef} from 'react';
+import React,{useEffect,useRef} from 'react';
 import socket from './Socket';
 
 import { makeStyles } from '@material-ui/core/styles';
@@ -67,7 +67,7 @@ const Chat = ({users,messages,userName,roomId,setMessage})=>{
                     <Typography align='center' variant='h6'> ROOM №: ({roomId})</Typography>
                     <Typography variant='h6'> Online: ({users.length})</Typography>
                     <List className={classes.list}>
-                        {!users ? null : users.map( name => <User name = {name} key = {name}/>)}
+                        {!users ? null : users.map( (name,index) => <User name = {name} key = {index}/>)}
                     </List>
                 </Grid>
                 <Grid container direction='column' justify='space-between' item md={8} sm={8} xs={12}  className={classes.messageContainer}>
